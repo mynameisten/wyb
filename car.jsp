@@ -28,7 +28,7 @@
         <tr>
             <td>文具</td>
             <td><%=map1.get("文具")%></td>
-            <td><%=map1.get("文具")%>*200000</td>
+            <td><%=map1.get("文具")%>*15</td>
         </tr>
     </table>
     <p>总金额：<%=map1.get("香水")*500+map1.get("书籍")*20+map1.get("文具")*15 %></p>
