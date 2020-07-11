@@ -8,10 +8,12 @@
     <tr>
         <td valign="middle" align="center">
             欢迎<h3><%=session.getAttribute("loginUsername")%></h3>登录成功!!!<br>
-            <a href="index.jsp"><span style="color: red">前往起始页</span> </a>
+            <p><a href="mall.jsp">查看商城</a>
+            <p><a href="car.jsp">查看购物车</a>
+            <p><a href="logout.jsp">退出登录</a>
         </td>
     </tr>
-</table>
+</table>index
 
 </body>
 </html>
